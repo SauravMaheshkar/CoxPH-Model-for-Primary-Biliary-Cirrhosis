@@ -1,0 +1,6 @@
+pandas==1.1.0
+numpy==1.19.1
+sklearn
+lifelines==0.25.1
+flask==1.1.2
+gunicorn==20.0.04
