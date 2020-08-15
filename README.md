@@ -1,4 +1,4 @@
-<!-- Add banner here -->
+![Banner](https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis/blob/master/Banner.png)
 
 # CoxPH Model for Primary Biliary Cirrhosis
 
