@@ -69,11 +69,8 @@ Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README
 - [Stack](#stack)
 - [Usage](#usage)
 - [Development](#development)
-- [Contribute](#contribute)
-    - [Sponsor](#sponsor)
-    - [Adding new features or fixing bugs](#adding-new-features-or-fixing-bugs)
 - [License](#license)
-- [Footer](#footer)
+- [Credits](#credits)
 
 # Installation
 [(Back to top)](#table-of-contents)
@@ -115,9 +112,18 @@ Ideally, you should keep the README simple. If you need to add more complex expl
 # Contribute
 [(Back to top)](#table-of-contents)
 
-<!-- This is where you can let people know how they can **contribute** to your project. Some of the ways are given below.
+### Step 1
+ - **Option 1**
+   🍴 Fork it!  
+ - **Option 2**
+    👯‍♂️ Clone this repo to your local machine using `https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis.git`
+### Step 2
 
-Also this shows how you can add subsections within a section. -->
+- **HACK AWAY!** 🔨🔨🔨
+
+### Step 3
+
+- 🔃 Create a new pull request using `https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis/compare/`
 
 ### Sponsor
 [(Back to top)](#table-of-contents)
@@ -150,15 +156,8 @@ The data for this project was taken from kaggle datasets. The owner of the datas
 - [MIT License](https://opensource.org/licenses/MIT)
 
 
-# Footer
-[(Back to top)](#table-of-contents)
+# Credits
 
-<!-- Let's also add a footer because I love footers and also you **can** use this to convey important info.
-
-Let's make it an image because by now you have realised that multimedia in images == cool(*please notice the subtle programming joke). -->
-
-Leave a star in GitHub, give a clap in Medium and share this guide if you found this helpful.
-
-<!-- Add the footer here -->
-
-<!-- ![Footer](https://github.com/navendu-pottekkat/awesome-readme/blob/master/fooooooter.png) -->
+The inspiration for this readme file came from
+- [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46#license)
+- [Navendu Pottekkat](https://github.com/navendu-pottekkat/awesome-readme/blob/master/README-template.md)
