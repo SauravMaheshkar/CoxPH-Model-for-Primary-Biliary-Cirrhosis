@@ -63,12 +63,13 @@ Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README
 - [Goals](#goals)
 - [Installation](#installation)
 - [Directory tree](#directory-tree)
-- [Request](#request)
-    -[Bug](#bug)
-    -[Feature](#feature)
 - [Stack](#stack)
 - [Usage](#usage)
 - [Development](#development)
+- [Request](#request)
+    -[Bug](#bug)
+    -[Feature](#feature)
+- [Contribute](#contribute)
 - [License](#license)
 - [Credits](#credits)
 
@@ -109,8 +110,20 @@ You could also give specific instructions to how they can setup their developmen
 
 Ideally, you should keep the README simple. If you need to add more complex explanations, use a wiki. Check out [this wiki](https://github.com/navendu-pottekkat/nsfw-filter/wiki) for inspiration. -->
 
+# Request
+[(Back to top)](#table-of-contents)
+
+### Bug 
+[(Back to top)](#table-of-contents)
+
+If you spot a bug in the program kindly raise a issue. Instructions for raising an issue can be found [here](https://docs.github.com/en/enterprise/2.15/user/articles/creating-an-issue)
+
+
+
 # Contribute
 [(Back to top)](#table-of-contents)
+
+If you want to contribute to the project kindly mail me at `sauravvmaheshkar@gmail.com`.
 
 ### Step 1
  - **Option 1**
@@ -125,25 +138,6 @@ Ideally, you should keep the README simple. If you need to add more complex expl
 
 - 🔃 Create a new pull request using `https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis/compare/`
 
-### Sponsor
-[(Back to top)](#table-of-contents)
-
-<!-- Your project is gaining traction and it is being used by thousands of people(***with this README there will be even more***). Now it would be a good time to look for people or organisations to sponsor your project. This could be because you are not generating any revenue from your project and you require money for keeping the project alive.
-
-You could add how people can sponsor your project in this section. Add your patreon or GitHub sponsor link here for easy access.
-
-A good idea is to also display the sponsors with their organisation logos or badges to show them your love!(*Someday I will get a sponsor and I can show my love*) -->
-
-### Adding new features or fixing bugs
-[(Back to top)](#table-of-contents)
-
-<!-- This is to give people an idea how they can raise issues or feature requests in your projects. 
-
-You could also give guidelines for submitting and issue or a pull request to your project.
-
-Personally and by standard, you should use a [issue template](https://github.com/navendu-pottekkat/nsfw-filter/blob/master/ISSUE_TEMPLATE.md) and a [pull request template](https://github.com/navendu-pottekkat/nsfw-filter/blob/master/PULL_REQ_TEMPLATE.md)(click for examples) so that when a user opens a new issue they could easily format it as per your project guidelines.
-
-You could also add contact details for people to get in touch with you regarding your project. -->
 
 # License
 [(Back to top)](#table-of-contents)
