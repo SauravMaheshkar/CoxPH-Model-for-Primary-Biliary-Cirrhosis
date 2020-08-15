@@ -60,15 +60,14 @@ Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README
 - [Table of contents](#table-of-contents)
 - [Overview](#overview)
 - [Motivation](#motivation)
+- [Stack](#stack)
 - [Goals](#goals)
 - [Installation](#installation)
 - [Directory tree](#directory-tree)
-- [Stack](#stack)
 - [Usage](#usage)
 - [Development](#development)
 - [Request](#request)
     -[Bug](#bug)
-    -[Feature](#feature)
 - [Contribute](#contribute)
 - [License](#license)
 - [Credits](#credits)
@@ -94,6 +93,19 @@ To use this project, first clone the repo on your device using the command below
 
 ```git clone https://github.com/navendu-pottekkat/nsfw-filter.git``` -->
 
+# Stack
+
+[(Back to top)](#table-of-contents)
+
+The following libraries and modules were used in this software:
+
+- [pandas](https://pandas.pydata.org/)
+- [numpy](https://numpy.org/)
+- [sklearn](https://scikit-learn.org/stable/)
+- [matplotlib](https://matplotlib.org/)
+- [lifelines](https://lifelines.readthedocs.io/en/latest/)
+- [flask](https://flask.palletsprojects.com/en/1.1.x/)
+
 # Usage
 [(Back to top)](#table-of-contents)
 
@@ -117,8 +129,6 @@ Ideally, you should keep the README simple. If you need to add more complex expl
 [(Back to top)](#table-of-contents)
 
 If you spot a bug in the program kindly raise a issue. Instructions for raising an issue can be found [here](https://docs.github.com/en/enterprise/2.15/user/articles/creating-an-issue)
-
-
 
 # Contribute
 [(Back to top)](#table-of-contents)
