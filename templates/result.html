@@ -1,8 +1,87 @@
-<!doctype html>
 <html>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    <body>
-      <p>
-         {% print(result) %}
-      </p>
+      <div style="width: 600px; margin-left: 
+      30%;">
+      <p class="w3-text-blue" style="margin-left: 35%;">Your Expected Lifetime is:</p>
+      <div class="w3-container">
+         <p class="w3-text-blue" style="margin-left: 37%;" >{% print(result) %}</p>
+      </div>
+         <form class="w3-container"  action = "http://localhost:5000/result" method = "POST">
+
+            <p class="w3-text-blue" style="margin-left: 35%;">Please enter your stats</p>
+            <label class="w3-text-blue"><b>Status</b></label>
+            <input class="w3-input w3-border" type="text" name = "status">
+ 
+            <label class="w3-text-blue"><b>Age</b></label>
+            <input class="w3-input w3-border" type="text" name = "age">
+
+            <label class="w3-text-blue"><b>trt</b></label>
+            <input class="w3-input w3-border" type="text" name = "trt">
+
+            <label class="w3-text-blue"><b>time</b></label>
+            <input class="w3-input w3-border" type="text" name = "time">
+
+            <label class="w3-text-blue"><b>ast</b></label>
+            <input class="w3-input w3-border" type="text" name = "ast">
+
+            <label class="w3-text-blue"><b>Sex</b></label>
+            <input class="w3-input w3-border" type="text" name = "sex">
+
+            <label class="w3-text-blue"><b>Ascites</b></label>
+            <input class="w3-input w3-border" type="text" name = "ascites">
+
+            <label class="w3-text-blue"><b>Hepato</b></label>
+            <input class="w3-input w3-border" type="text" name = "hepato">
+
+            <label class="w3-text-blue"><b>Spiders</b></label>
+            <input class="w3-input w3-border" type="text" name = "spiders">
+
+            <label class="w3-text-blue"><b>Edema_0.5</b></label>
+            <input class="w3-input w3-border" type="text" name = "edema_0.5">
+
+            <label class="w3-text-blue"><b>Edema_1.0</b></label>
+            <input class="w3-input w3-border" type="text" name = "edema_1.0">
+
+            <label class="w3-text-blue"><b>Bili</b></label>
+            <input class="w3-input w3-border" type="text" name = "bili">
+
+            <label class="w3-text-blue"><b>Chol</b></label>
+            <input class="w3-input w3-border" type="text" name = "chol">
+
+            <label class="w3-text-blue"><b>Albumin</b></label>
+            <input class="w3-input w3-border" type="text" name = "albumin">
+
+            <label class="w3-text-blue"><b>Copper</b></label>
+            <input class="w3-input w3-border" type="text" name = "copper">
+
+            <label class="w3-text-blue"><b>alk.phos</b></label>
+            <input class="w3-input w3-border" type="text" name = "alk.phos">
+
+            <label class="w3-text-blue"><b>Trig</b></label>
+            <input class="w3-input w3-border" type="text" name = "trig">
+
+            <label class="w3-text-blue"><b>Platelet</b></label>
+            <input class="w3-input w3-border" type="text" name = "platelet">
+
+            <label class="w3-text-blue"><b>Protime</b></label>
+            <input class="w3-input w3-border" type="text" name = "protime">
+
+            <label class="w3-text-blue"><b>Stage_2.0</b></label>
+            <input class="w3-input w3-border" type="text" name = "stage_2.0">
+
+            <label class="w3-text-blue"><b>Stage_3.0</b></label>
+            <input class="w3-input w3-border" type="text" name = "stage_3.0">
+
+            <label class="w3-text-blue"><b>Stage_4.0</b></label>
+            <input class="w3-input w3-border" type="text" name = "stage_4.0">
+
+            <input type = "submit" style = "margin-left: 45%; margin-top: 10px;"value = "submit" />
+ 
+            </form>
+
+            
+
+      </div>
    </body>
 </html>
