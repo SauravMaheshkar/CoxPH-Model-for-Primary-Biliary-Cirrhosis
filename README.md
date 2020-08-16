@@ -122,6 +122,26 @@ You could also give specific instructions to how they can setup their developmen
 
 Ideally, you should keep the README simple. If you need to add more complex explanations, use a wiki. Check out [this wiki](https://github.com/navendu-pottekkat/nsfw-filter/wiki) for inspiration. -->
 
+# Directory Tree
+[(Back to top)](#table-of-contents)
+
+```bash
+├── __pycache__
+│   ├── main.cpython-38.pyc
+│   └── process_data.cpython-38.pyc
+├── app.py
+├── input
+│   └── pbc.csv
+├── main.py
+├── requirements.txt
+├── static
+│   ├── css
+│   └── js
+└── templates
+    ├── index.html
+    └── result.html
+```
+
 # Request
 [(Back to top)](#table-of-contents)
 
