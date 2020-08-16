@@ -11,7 +11,6 @@ Provided that the assumptions of Cox regression are met, this function will prov
 
 # Table of contents
 
-- [Project Title](#project-title)
 - [Table of contents](#table-of-contents)
 - [Installation](#installation)
 - [Stack](#stack)
