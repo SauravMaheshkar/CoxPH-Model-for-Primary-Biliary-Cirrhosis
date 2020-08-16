@@ -109,7 +109,10 @@ The following libraries and modules were used in this software:
 # Usage
 [(Back to top)](#table-of-contents)
 
-<!-- This is optional and it is used to give the user info on how to use the project after installation. This could be added in the Installation section also. -->
+To run the program just run the following command on the terminal
+```python
+python3 app.py
+```
 
 # Development
 [(Back to top)](#table-of-contents)
