@@ -117,13 +117,15 @@ python3 app.py
 # Development
 [(Back to top)](#table-of-contents)
 
-<!-- This is the place where you give instructions to developers on how to modify the code.
+This entire project is based on the [lifeline](https://lifelines.readthedocs.io/en/latest/index.html) package specifically on the [CoxPH Survival Regression Model](https://lifelines.readthedocs.io/en/latest/Survival%20Regression.html#cox-s-proportional-hazard-model). If want to develop on the project start from mastering this package and all it's [prediction](https://lifelines.readthedocs.io/en/latest/Survival%20Regression.html#prediction) functions. 
 
-You could give **instructions in depth** of **how the code works** and how everything is put together.
+There are two main files in the project 
+- [main.py](https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis/blob/master/main.py)
+- [app.py](https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis/blob/master/app.py)
 
-You could also give specific instructions to how they can setup their development environment.
+You'll be making all the changes in the [main.py](https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis/blob/master/main.py) file. If you have a different dataset, edit the ```input_path``` variable. Make sure that the sex column is filled with categorical variables. For instance, my dataset didn't had the variables as categorical they were of the form "f" and "m". If you want to encode different columns edit the ```to_encode``` variable. Also, if you want to change the duration column for the regression model change the ```duration_col``` parameter in the ```fit()``` function. Same goes for the ```event_col``` variable. 
 
-Ideally, you should keep the README simple. If you need to add more complex explanations, use a wiki. Check out [this wiki](https://github.com/navendu-pottekkat/nsfw-filter/wiki) for inspiration. -->
+In the [app.py](https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis/blob/master/app.py) file , you can change the input data for the prediction. In this project I've made a simple Flask Web-Application for any user to input the data. The user will input the variables in the ```input``` tag of the [index.html](https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis/blob/master/templates/index.html) file. If you instead want the user to give as input a .csv file you'll need to add some code to convert that .csv file to a dataframe and then edit the [main.py](https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis/blob/master/main.py) file as well.
 
 # Directory Tree
 [(Back to top)](#table-of-contents)
