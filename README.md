@@ -12,6 +12,7 @@ Provided that the assumptions of Cox regression are met, this function will prov
 # Table of contents
 
 - [Table of contents](#table-of-contents)
+- [Aim](#aim)
 - [Installation](#installation)
 - [Stack](#stack)
 - [Usage](#usage)
@@ -23,6 +24,9 @@ Provided that the assumptions of Cox regression are met, this function will prov
 - [License](#license)
 - [Credits](#credits)
 
+# Aim
+[(Back to top)](#table-of-contents)
+The aim of this project is to make a Cox Proportional Hazard Model for analysis of Primary Biliary Cirrhosis(pbc) and use that to calculate the predicted life expectancy of a subject
 # Installation
 [(Back to top)](#table-of-contents)
 
