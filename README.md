@@ -8,6 +8,43 @@
 
 Provided that the assumptions of Cox regression are met, this function will provide better estimates of survival probabilities and cumulative hazard than those provided by the Kaplan-Meier function.
 
+**Hazard and hazard-ratios**
+
+Cumulative hazard at a time t is the risk of dying between time 0 and time t, and the survivor function at time t is the probability of surviving to time t 
+
+ 
+
+The coefficients in a Cox regression relate to hazard; a positive coefficient indicates a worse prognosis and a negative coefficient indicates a protective effect of the variable with which it is associated.
+
+ 
+
+The hazards ratio associated with a predictor variable is given by the exponent of its coefficient; this is given with a confidence interval under the "coefficient details" option in StatsDirect. The hazards ratio may also be thought of as the relative death rate. The interpretation of the hazards ratio depends upon the measurement scale of the predictor variable in question for further information on relative risk of hazards.
+
+ 
+
+**Time-dependent and fixed covariates**
+
+In prospective studies, when individuals are followed over time, the values of covariates may change with time. Covariates can thus be divided into fixed and time-dependent. A covariate is time dependent if the difference between its values for two different subjects changes with time; e.g. serum cholesterol. A covariate is fixed if its values can not change with time, e.g. sex or race. Lifestyle factors and physiological measurements such as blood pressure are usually time-dependent. Cumulative exposures such as smoking are also time-dependent but are often forced into an imprecise dichotomy, i.e. "exposed" vs. "not-exposed" instead of the more meaningful "time of exposure". There are no hard and fast rules about the handling of time dependent covariates. 
+
+ 
+
+**Model analysis and deviance**
+Here the likelihood chi-square statistic is calculated by comparing the deviance (- 2 * log likelihood) of your model, with all of the covariates you have specified, against the model with all covariates dropped. The individual contribution of covariates to the model can be assessed from the significance test given with each coefficient in the main output; this assumes a reasonably large sample size.
+
+ 
+
+Deviance is minus twice the log of the likelihood ratio for models fitted by maximum likelihood. The value of adding a parameter to a Cox model is tested by subtracting the deviance of the model with the new parameter from the deviance of the model without the new parameter, the difference is then tested against a chi-square distribution with degrees of freedom equal to the difference between the degrees of freedom of the old and new models. The model analysis option tests the model you specify against a model with only one parameter, the intercept; this tests the combined value of the specified predictors/covariates in the model.
+
+ 
+
+Some statistical packages offer stepwise Cox regression that performs systematic tests for different combinations of predictors/covariates. Automatic model building procedures such as these can be misleading as they do not consider the real-world importance of each predictor
+
+ 
+
+**Survival and cumulative hazard rates**
+
+The survival/survivorship function and the cumulative hazard function are calculated relative to the baseline (lowest value of covariates) at each time point. Cox regression provides a better estimate of these functions than the Kaplan-Meier method when the assumptions of the Cox model are met and the fit of the model is strong.
+
 
 # Table of contents
 
